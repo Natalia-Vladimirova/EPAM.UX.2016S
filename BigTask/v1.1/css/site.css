@@ -1,0 +1,306 @@
+html,
+body {
+  height: 100%;
+}
+.container {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #C0C0C0;
+  font-family: "Myriad Pro", verdana, serif;
+  font-size: 17px;
+}
+div,input,p,h1,h2,h3,h4,h5,ul,label {
+  margin: 0;
+  padding: 0;
+}
+p,h1,h2,h3,h4,h5,label {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  background-color: white;
+  width: 1000px;
+  margin: auto;
+}
+.cleaning {
+  clear: left;
+}
+.header {
+  height: 81px;
+  background: url(../images/logotype.png) no-repeat;
+  background-position: center;
+  margin-left: 27px;
+}
+.main {
+  padding: 0 5.6% 10% 6.1%;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 12px;
+  display: inline-block;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 33px;
+  font-weight: normal;
+  line-height: 0.8;
+  text-align: left;
+  color: rgb(239, 67, 63);
+  margin-left: 17px;
+  display: inline-block;
+  white-space: nowrap;
+}
+h3 {
+  background-color: rgb(219, 219, 219);
+  font-size: 17px;
+  line-height: 1.4;
+  padding: 0 14px;
+  white-space: nowrap;
+}
+h4 {
+  font-weight: normal;
+  color: rgb(239, 67, 63);
+  white-space: nowrap;
+}
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+
+ul.formal-education, ul.work-experience {
+  font-size: 23px;
+}
+ul.formal-education li:before, 
+ul.work-experience li:before {
+  content: "";
+  float: left;
+  width: 20px;
+  height: 20px; 
+  background: rgb(207, 69, 65);
+  margin: 7px 0 0 13px;
+  /* Rotate */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* Rotate Origin */
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+
+.left {
+  display:inline-block;
+  width: 55.8%;
+  margin-right: 6%;
+  float: left;
+}
+.right {
+  display:inline-block;
+  width: 38.2%;
+}
+
+.first {
+  padding-top: 94px;
+  padding-bottom: 27px;
+}
+.first .left .photo-red {
+  background-color: rgb(207, 69, 65);
+  padding: 15px 19.5px 15px 61px;
+  height: 155.5px;
+  width: 164px;
+  float: left;
+  margin-top: -94px;
+  margin-left: -61px;
+}
+.first .left .photo-red .photo-white {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.first .right {
+  padding-top: 9px;
+}
+.first .right .personal-data {
+  margin-top: 22px;
+  line-height: 1;
+}
+.first .right .personal-data div {
+  overflow: hidden;
+}
+.first .right .personal-data label {
+  font-weight: bold;
+  width: 38.5%;
+  margin-bottom: 3.5px;
+  float: left;
+}
+.first .right .personal-data input {
+  font-size: 16.5px;
+  width: 61.5%;
+  line-height: 1;
+  border: none;
+}
+
+
+.second {
+  padding-bottom: 50px;
+}
+.second .left .about {
+  margin-top: 4px;
+  line-height: 1.12;
+  font-size: 18.1px;
+}
+
+.second .right ul.formal-education {
+  margin-top: 17px;
+  margin-left: -2.5px;
+}
+.second .right ul.formal-education li {
+  margin-bottom: 18px;
+}
+.second .right ul.formal-education li div:nth-child(1) {
+  width: 34%;
+  display: inline-block;
+  vertical-align: top;
+}
+.second .right ul.formal-education label {
+  padding-left: 24px;
+}
+.second .right ul.formal-education li div:nth-child(2) {
+  width: 54.5%;
+  display: inline-block;
+  line-height: 0.8;
+  margin-top: 0.3px;
+}
+.second .right ul.formal-education li + li div div {
+  margin-top: 9px;
+}
+
+
+.third .left ul.work-experience {
+  margin-top: 36px;
+}
+.third .left ul.work-experience li {
+  margin-bottom: 2.5px;
+}
+.third .left ul.work-experience li div:nth-child(1) {
+  width: 24.8%;
+  display: inline-block;
+  vertical-align: top;
+}
+.third .left ul.work-experience li div:nth-child(2) {
+  width: 67.5%;
+  display: inline-block;
+  line-height: 0.8;
+}
+.third .left ul.work-experience li:nth-child(2n+1) label {
+  padding-left: 5px;
+}
+.third .left ul.work-experience li:nth-child(2n) label {
+  padding-left: 28px;
+}
+.third .left ul.work-experience li h4 {
+  margin-top: 6px;
+}
+.third .left ul.work-experience li p {
+  line-height: 0.97;
+}
+
+.third .right .skills {
+  margin-top: 40px;
+}
+.third .right .skills label {
+  font-weight: bold;
+  width: 52.8%;
+  display: inline-block;
+  float: left;
+  white-space: nowrap;
+}
+.third .right .skills li {
+  margin-bottom: 16px;
+}
+.third .right .skills :nth-child(4n) {
+  margin-bottom: 38px;
+ }
+.third .right .skills .progress-bar {
+  display: inline-block;
+  margin-bottom: 0px;
+  width: 47.2%;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 88.3%;
+  padding-left: 6.1%;
+  padding-right: 5.6%;
+}
+.footer div {
+  font-size: 25px;
+  width: 33%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.footer p {
+  font-weight: bold;
+  padding-top: 3px;
+  display: inline-block;
+}
+.footer div:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  float: left;
+}
+.footer .twitter:before {
+  background: url(../images/twitter.png) no-repeat;
+  background-size: 100% auto;
+  margin-left: 4px;
+}
+.footer .phone:before {
+  background: url(../images/phone.png) no-repeat;
+  background-size: 100% auto;
+  margin-left: 19px;
+}
+.footer .site:before {
+  background: url(../images/site.png) no-repeat;
+  background-size: 100% auto;
+  margin-left: 14px;
+}
+
+.footer a:hover, .footer a:visited, 
+.footer a:link, .footer a:active
+{
+    text-decoration: none;
+}
+.footer a:link, .footer a:visited {
+    color: black;
+}
+.footer a:hover {
+    color: #800000;
+}
+.footer a:active {
+    color: #B22222;
+}
