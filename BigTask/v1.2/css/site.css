@@ -1,0 +1,286 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #C0C0C0;
+  font-family: "Myriad Pro", verdana, serif;
+  font-size: 17px;
+}
+div,input,p,h1,h2,h3,h4,h5,ul,label {
+  margin: 0;
+  padding: 0;
+}
+p,h1,h2,h3,h4,h5,label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  position: relative;
+  width: 1000px;
+  min-height: 100%;
+  margin: auto;
+  background-color: white;
+}
+.cleaning {
+  clear: left;
+}
+.header {
+  text-align: center;
+}
+.header a {
+  display: inline-block;
+  height: 80px;
+  width: 30%;
+  background: url(../images/logotype.png) no-repeat;
+  background-position: center;
+}
+.main {
+  padding: 5%;
+  padding-top: 10%;
+}
+
+.column {
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 3%;
+  float: left;
+}
+.column:nth-child(2n+1) {
+  margin-right: 4%;
+}
+h1,h2,h3,h4 {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 30px;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(239, 67, 63);
+  white-space: nowrap;
+}
+h3 {
+  background-color: rgb(219, 219, 219);
+  font-size: 17px;
+  line-height: 1.4;
+  padding: 0 14px;
+  white-space: nowrap;
+}
+h4 {
+  font-weight: normal;
+  color: rgb(239, 67, 63);
+  white-space: nowrap;
+}
+h5 {
+  font-size: 22px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+
+ul.formal-education, ul.work-experience {
+  font-size: 20px;
+}
+ul.formal-education li:before, 
+ul.work-experience li:before {
+  content: "";
+  float: left;
+  width: 20px;
+  height: 20px; 
+  background: rgb(207, 69, 65);
+  margin: 7px 0 0 13px;
+  /* Rotate */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* Rotate Origin */
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+
+.column a.photo {
+  display: inline-block;
+  float: left;
+  height: 170px;
+  width: 50%;
+  margin-top: -23%;
+  margin-left: -11.5%;
+  margin-bottom: 30px;
+}
+.column .photo-red {
+  background-color: rgb(207, 69, 65);
+  height: 80%;
+  width: 65%;
+  padding: 8% 10% 8% 25%;
+}
+.column .photo-red .photo-white {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+.column .main-header {
+  display: inline-block;
+  margin-left: 12px;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+.column .personal-data {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+.column .personal-data div {
+  overflow: hidden;
+}
+.column .personal-data label {
+  font-weight: bold;
+  width: 38.5%;
+  margin-bottom: 3.5px;
+  float: left;
+}
+.column .personal-data input {
+  font-size: 16.5px;
+  width: 61.5%;
+  border: none;
+}
+
+.column .about {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  line-height: 1.15;
+  font-size: 18px;
+}
+
+.column ul.formal-education {
+  margin-top: 17px;
+  margin-bottom: 30px;
+}
+.column ul.formal-education li {
+  margin-bottom: 20px;
+}
+.column ul.formal-education label {
+  width: 34%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.column ul.formal-education div {
+  width: 57.3%;
+  display: inline-block;
+  line-height: 1;
+}
+
+.column ul.work-experience {
+  margin-top: 40px;
+}
+.column ul.work-experience li {
+  margin-bottom: 10px;
+}
+.column ul.work-experience li label {
+  width: 24.8%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.column ul.work-experience li div {
+  width: 66.5%;
+  display: inline-block;
+  line-height: 1;
+}
+
+.column ul.work-experience li h5 {
+  text-transform: uppercase;
+}
+
+.column ul.skills {
+  margin-top: 40px;
+}
+.column ul.skills label {
+  font-weight: bold;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  white-space: nowrap;
+}
+.column ul.skills li {
+  margin-bottom: 10px;
+}
+.column ul.skills :nth-child(4n) {
+  margin-bottom: 30px;
+ }
+.column ul.skills .progress-bar {
+  display: inline-block;
+  width: 50%;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+}
+.footer div {
+  font-size: 25px;
+  width: 33%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.footer p {
+  font-weight: bold;
+  padding-top: 3px;
+  display: inline-block;
+}
+.footer div:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  float: left;
+}
+.footer .twitter:before {
+  background: url(../images/twitter.png) no-repeat;
+  background-size: 100% auto;
+  margin-left: 4px;
+}
+.footer .phone:before {
+  background: url(../images/phone.png) no-repeat;
+  background-size: 100% auto;
+  margin-left: 19px;
+}
+.footer .site:before {
+  background: url(../images/site.png) no-repeat;
+  background-size: 100% auto;
+  margin-left: 14px;
+}
+
+.footer a:hover, .footer a:visited, 
+.footer a:link, .footer a:active
+{
+    text-decoration: none;
+}
+.footer a:link, .footer a:visited {
+    color: black;
+}
+.footer a:hover {
+    color: #800000;
+}
+.footer a:active {
+    color: #B22222;
+}
