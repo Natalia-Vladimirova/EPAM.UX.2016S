@@ -1,0 +1,92 @@
+html,
+body {
+  margin-top: 0;
+}
+p,h1,h2,h3,h4 {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-family: verdana;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 50px;
+	color: #4682B4;
+	padding-bottom: 25px;
+}
+h2 {
+	color: #696969;
+	font-size: 20px;
+}
+h3 {
+	color: #8b8989;
+	font-size: 15px;
+}
+.main-table .sub-header {
+	vertical-align: top;
+	padding-top: 10px;
+	text-align: left;
+}
+h4 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #696969;
+}
+
+.main-table {
+	width: 900px;
+	margin: auto;
+	border-collapse: collapse;
+}
+.main-table tr:nth-child(2) td {
+	padding: 0px;
+}
+.main-table th {
+	background-color: #C0C0C0;
+}
+
+.menu-bar li {
+    float: left;
+}
+.special-ul li {
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+.special-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.special-ul li:hover {
+    background-color: #C0C0C0;
+}
+ul.with-border {
+	border: 5px solid #C0C0C0;
+	padding: 0px;
+}
+.vertical-bar {
+	width: 35%;
+	vertical-align: top;
+	padding-top: 10px;
+}
+.vertical-bar + td {
+	padding-left: 10px;
+}
+.basic-ul {
+	margin: 0px;
+}
+.mini-table {
+	border: 4px double black;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+}
+.main-table table.mini-table td, 
+.main-table table.mini-table th {
+	border: 1px solid black;
+	padding: 5px;
+}
